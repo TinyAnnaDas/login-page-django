@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h3>Hi there <strong>{{user.username}}!!!</strong></h3>
+<br>
+<form action="logout">
+    <input type="submit" value="Log Out" class="btn btn-block btn-primary">
+</form>
+
+{% endblock %}
+
